@@ -1,0 +1,2 @@
+#session optional pam_exec.so type=open_session /usr/local/bin/remotelogin.sh
+session optional pam_exec.so type=close_session /usr/local/bin/umounthome.sh
